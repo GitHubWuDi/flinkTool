@@ -9,6 +9,13 @@ public class WordCountVO {
 	private String word;
 	private Integer count;
 
+	public WordCountVO() {}
+	
+	public WordCountVO(String word,Integer count) {
+		this.word = word;
+		this.count = count;
+	}
+	
 	public String getWord() {
 		return word;
 	}
